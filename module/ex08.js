@@ -12,6 +12,6 @@ export class Livro{
     }
 
     descreverLivro(){
-        console.log(`Titulo: ${this.titulo}, Autor: ${this.autor}, Ano de Publicação: ${this.anoPublicacao}, Genero: ${this.genero}`)
+    return `Titulo: ${this.titulo}, Autor: ${this.autor}, Ano de Publicação: ${this.anoPublicacao}, Genero: ${this.genero}`
     }
 }
